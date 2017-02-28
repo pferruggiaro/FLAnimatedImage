@@ -75,6 +75,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "FLAnimatedImage"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

@@ -24,8 +24,7 @@
 		0C22DAEA1BCABF4F006E1D3B /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
 		0C22DAEB1BCABF4F006E1D3B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92C9BC0C1B199DC500D79B06 /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD0B331E1E65BC33004C4B62 /* FLAnimatedImage tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "FLAnimatedImage tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD0B331F1E65BC34004C4B62 /* FLAnimatedImage copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FLAnimatedImage copy-Info.plist"; path = "/Users/ferruggp/workspace/FLAnimatedImage/FLAnimatedImage copy-Info.plist"; sourceTree = "<absolute>"; };
+		FD0B331E1E65BC33004C4B62 /* FLAnimatedImage-tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "FLAnimatedImage-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +62,6 @@
 			children = (
 				0C22DAE61BCABF4F006E1D3B /* FLAnimatedImage */,
 				92C9BC0D1B199DC500D79B06 /* Products */,
-				FD0B331F1E65BC34004C4B62 /* FLAnimatedImage copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				92C9BC0C1B199DC500D79B06 /* FLAnimatedImage.framework */,
-				FD0B331E1E65BC33004C4B62 /* FLAnimatedImage tvOS.framework */,
+				FD0B331E1E65BC33004C4B62 /* FLAnimatedImage-tvOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,9 +116,9 @@
 			productReference = 92C9BC0C1B199DC500D79B06 /* FLAnimatedImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FD0B33121E65BC33004C4B62 /* FLAnimatedImage tvOS */ = {
+		FD0B33121E65BC33004C4B62 /* FLAnimatedImage-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD0B331B1E65BC33004C4B62 /* Build configuration list for PBXNativeTarget "FLAnimatedImage tvOS" */;
+			buildConfigurationList = FD0B331B1E65BC33004C4B62 /* Build configuration list for PBXNativeTarget "FLAnimatedImage-tvOS" */;
 			buildPhases = (
 				FD0B33131E65BC33004C4B62 /* Sources */,
 				FD0B33161E65BC33004C4B62 /* Frameworks */,
@@ -131,9 +129,9 @@
 			);
 			dependencies = (
 			);
-			name = "FLAnimatedImage tvOS";
+			name = "FLAnimatedImage-tvOS";
 			productName = FLAnimatedImage;
-			productReference = FD0B331E1E65BC33004C4B62 /* FLAnimatedImage tvOS.framework */;
+			productReference = FD0B331E1E65BC33004C4B62 /* FLAnimatedImage-tvOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +161,7 @@
 			projectRoot = "";
 			targets = (
 				92C9BC0B1B199DC500D79B06 /* FLAnimatedImage */,
-				FD0B33121E65BC33004C4B62 /* FLAnimatedImage tvOS */,
+				FD0B33121E65BC33004C4B62 /* FLAnimatedImage-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -387,7 +385,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD0B331B1E65BC33004C4B62 /* Build configuration list for PBXNativeTarget "FLAnimatedImage tvOS" */ = {
+		FD0B331B1E65BC33004C4B62 /* Build configuration list for PBXNativeTarget "FLAnimatedImage-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD0B331C1E65BC33004C4B62 /* Debug */,

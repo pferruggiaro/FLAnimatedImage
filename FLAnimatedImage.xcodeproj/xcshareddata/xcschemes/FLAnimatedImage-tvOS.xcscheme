@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FDD0F5021E65DAA300061C0D"
-               BuildableName = "FLAnimatedImage-tvOS.framework"
+               BuildableName = "FLAnimatedImage.framework"
                BlueprintName = "FLAnimatedImage-tvOS"
                ReferencedContainer = "container:FLAnimatedImage.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDD0F5021E65DAA300061C0D"
-            BuildableName = "FLAnimatedImage-tvOS.framework"
+            BuildableName = "FLAnimatedImage.framework"
             BlueprintName = "FLAnimatedImage-tvOS"
             ReferencedContainer = "container:FLAnimatedImage.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDD0F5021E65DAA300061C0D"
-            BuildableName = "FLAnimatedImage-tvOS.framework"
+            BuildableName = "FLAnimatedImage.framework"
             BlueprintName = "FLAnimatedImage-tvOS"
             ReferencedContainer = "container:FLAnimatedImage.xcodeproj">
          </BuildableReference>
